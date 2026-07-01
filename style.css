@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.top {
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+    background-color: red;
+
+}
+
+#login-btn, #signup-btn{
+    border: 1px solid black;
+    
+}
+
+/* .info {
+
+    position:fixed;
+
+} */
+nav div {
+    position: fixed;
+    height: 2.5 rem;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 5px;
+}
+
+nav a {
+    color: white;
+    /* flex-grow :1; */
+}
