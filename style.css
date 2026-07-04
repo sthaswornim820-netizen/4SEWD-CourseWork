@@ -1,139 +1,269 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: 'Segoe UI', sans-serif;
-  color: #222;
+    font-family: 'Segoe UI', sans-serif;
+    color: #222;
 }
 
 .top {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 8px 40px;
-  background: #1a1a1a;
-  color: #ccc;
-  font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 40px;
+    background: #1a1a1a;
+    color: #ccc;
+    font-size: 14px;
 }
 
 .top .info span {
-  margin-right: 20px;
+    margin-right: 20px;
 }
 
 .top .buttons a {
-  color: #fff;
-  text-decoration: none;
-  border: 1px solid #fff;
-  padding: 4px 16px;
-  border-radius: 20px;
-  margin-left: 10px;
-  font-size: 13px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 4px 16px;
+    border-radius: 20px;
+    margin-left: 10px;
+    font-size: 13px;
 }
 
 nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 16px 40px;
-  background: #1a1a1a;
-  border-top: 1px solid #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 40px;
+    background: #1a1a1a;
+    border-top: 1px solid #333;
 }
 
 .logo p {
-  font-size: 24px;
-  font-weight: 900;
-  color: #fff;
-  text-transform: uppercase;
-  letter-spacing: 2px;
+    font-size: 24px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
 }
 
 .nav-links {
-  list-style: none;
-  display: flex;
-  gap: 28px;
+    list-style: none;
+    display: flex;
+    gap: 28px;
 }
 
 .nav-links a {
-  color: #fff;
-  text-decoration: none;
-  font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 15px;
 }
 
 .main-image {
-  padding: 160px 40px;
-  text-align: center;
-  background-image: url('party.jpg');
-  background-size: cover;
-  background-position: center;
-  color: #fff;
+    padding: 160px 40px;
+    text-align: center;
+    background-image: url('party.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
 }
 
 .main-image h1 {
-  font-size: 48px;
-  font-weight: 800;
-  margin-bottom: 16px;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 16px;
 }
 
 .main-image p {
-  font-size: 17px;
-  max-width: 580px;
-  margin: 0 auto 30px;
-  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
+    font-size: 17px;
+    max-width: 580px;
+    margin: 0 auto 30px;
+    text-shadow: 0 1px 4px rgba(0, 0, 0, 0.8);
 }
 
 .main-buttons {
-  display: flex;
-  justify-content: center;
-  gap: 16px;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
 }
 
 .main-buttons button {
-  padding: 15px 30px;
-  font-size: 14px;
-  font-weight: 700;
-  text-transform: uppercase;
-  border-radius: 30px;
-  cursor: pointer;
-  border: 2px solid #fff;
-  background: #8b0000;
-  color: #fff;
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 2px solid #fff;
+    background: #8b0000;
+    color: #fff;
 }
 
-/* HOW IT WORKS */
 .how-it-works {
-  padding: 80px 40px;
-  text-align: center;
-  background: #fff;
+    padding: 80px 40px;
+    text-align: center;
+    background: #fff;
 }
 
 .how-it-works h2 {
-  font-size: 30px;
-  font-weight: 700;
-  margin-bottom: 50px;
-  color: #222;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 50px;
+    color: #222;
 }
 
 .steps {
-  display: flex;
-  justify-content: center;
-  gap: 60px;
+    display: flex;
+    justify-content: center;
+    gap: 60px;
 }
 
 .step {
-  max-width: 220px;
+    max-width: 220px;
 }
 
 .step h3 {
-  font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 10px;
-  color: #8b0000;
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #8b0000;
 }
 
 .step p {
-  font-size: 14px;
-  color: #666;
+    font-size: 14px;
+    color: #666;
+}
+
+.why-post {
+    padding: 80px 40px;
+    background: #1a0a10;
+    color: #fff;
+}
+
+.why-post .text-side {
+    max-width: 600px;
+}
+
+.why-post h2 {
+    font-size: 30px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.why-post ul {
+    list-style: none;
+}
+
+.why-post ul li {
+    padding: 8px 0;
+    font-size: 15px;
+    color: #ddd;
+    border-bottom: 1px solid #333;
+}
+
+.why-post ul li::before {
+    content: "✦ ";
+    color: #ff4444;
+}
+
+.signup-section {
+    padding: 80px 40px;
+    text-align: center;
+    background: #f0f0f0;
+}
+
+.signup-section h2 {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 36px;
+    color: #222;
+}
+
+.signup-box {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-input {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 14px;
+}
+
+.signup-box input {
+    width: 100%;
+    padding: 14px 18px;
+    font-size: 14px;
+    border: none;
+    border-radius: 8px;
+    background: #fff;
+    color: #444;
+    outline: none;
+}
+
+.signup-box input:focus {
+    box-shadow: 0 0 0 2px #8b0000;
+}
+
+.signup-box>button {
+    margin-top: 6px;
+    padding: 14px 60px;
+    background: #8b0000;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.social-signup {
+    margin-top: 28px;
+}
+
+.social-signup p {
+    color: #888;
+    font-size: 13px;
+    margin-bottom: 12px;
+}
+
+.social-buttons {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+}
+
+.fb-btn {
+  background: #3b5998;
+  color: #fff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.x-btn {
+  background: #000000;
+  color: #fff;
+  border: none;
+  padding: 10px 22px;
+  border-radius: 6px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+footer {
+    padding: 20px 40px;
+    text-align: center;
+    background: #111;
+    color: #888;
+    font-size: 13px;
 }
